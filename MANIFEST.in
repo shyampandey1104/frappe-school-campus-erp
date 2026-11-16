@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include campus *.css
+recursive-include campus *.csv
+recursive-include campus *.html
+recursive-include campus *.ico
+recursive-include campus *.js
+recursive-include campus *.json
+recursive-include campus *.md
+recursive-include campus *.png
+recursive-include campus *.py
+recursive-include campus *.svg
+recursive-include campus *.txt
+recursive-exclude campus *.pyc
